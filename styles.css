@@ -30,24 +30,14 @@ body {
   margin-top: 20px;
 }
 
-.primary,
-.secondary {
+.primary {
   padding: 12px 24px;
   font-size: 1rem;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-}
-
-.primary {
   background-color: #4f46e5;
   color: white;
-}
-
-.secondary {
-  background-color: black;
-  color: white;
-  margin-left: 10px;
 }
 
 .summary-options {
@@ -67,11 +57,62 @@ body {
   color: #4f46e5;
 }
 
+.api-key-container {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.api-key-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.api-key-container p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.api-key-container input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.api-key-container button {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.api-key-container button:hover {
+  background: #4834d4;
+}
+
+.status-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #27ae60;
+}
+
 .summarizer {
   background: white;
   padding: 50px;
   border-radius: 12px;
-  width: 60%;
+  width: 70%;
   margin: 50px auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -136,55 +177,4 @@ textarea {
   display: block;
   margin-bottom: 10px;
   color: #4f46e5;
-}
-
-.api-key-container {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.api-key-container h2 {
-  font-size: 1.5rem;
-  color: #333;
-}
-
-.api-key-container p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.api-key-container input {
-  width: 80%;
-  max-width: 400px;
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-.api-key-container button {
-  background: #6c5ce7;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-left: 10px;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.api-key-container button:hover {
-  background: #4834d4;
-}
-
-.status-message {
-  margin-top: 10px;
-  font-size: 0.9rem;
-  color: #27ae60;
 }

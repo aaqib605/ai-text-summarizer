@@ -15,22 +15,27 @@
       <h1>
         Transform Long Text into <span class="highlight">Clear Summaries</span>
       </h1>
+
       <p>
         Get concise summaries of any text in seconds. Choose your preferred
         length and let AI do the work for you.
       </p>
+
       <div class="buttons">
         <button class="primary" id="tryNow">Try Now</button>
       </div>
+
       <div class="summary-options">
         <div class="option">
           <span>Short</span>
           <p>Key points only</p>
         </div>
+
         <div class="option">
           <span>Medium</span>
           <p>Balanced summary</p>
         </div>
+
         <div class="option">
           <span>Detailed</span>
           <p>In-depth analysis</p>
@@ -40,28 +45,37 @@
 
     <section id="api-key-section" class="api-key-container">
       <h2>Enter Your Gemini API Key</h2>
+
       <p>Save your API key securely to use the text summarizer.</p>
+
       <input type="text" id="api-key-input" placeholder="Enter API Key..." />
+
       <button id="save-api-key">Save API Key</button>
+
       <p id="api-key-status" class="status-message"></p>
     </section>
 
     <section class="summarizer" id="summarizer">
       <h2>Text Summarizer</h2>
+
       <p>Choose your preferred summary length and let AI do the work</p>
+
       <div class="input-container">
         <textarea
           id="textInput"
           placeholder="Paste your text here..."
         ></textarea>
       </div>
+
       <div class="summary-buttons">
         <button class="summary-btn" data-length="short">
           ⚡ Short Summary
         </button>
+
         <button class="summary-btn" data-length="medium">
           📄 Medium Summary
         </button>
+
         <button class="summary-btn" data-length="detailed">
           🗂️ Detailed Summary
         </button>
