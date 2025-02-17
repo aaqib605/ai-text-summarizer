@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero .highlight {
+  color: #4f46e5;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.primary,
+.secondary {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.secondary {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+.summary-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.option {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.option span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.summarizer {
+  background: white;
+  padding: 50px;
+  border-radius: 12px;
+  width: 60%;
+  margin: 50px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.summarizer h2 {
+  font-size: 2rem;
+}
+
+.summarizer p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.summary-buttons {
+  margin-top: 20px;
+}
+
+.summary-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.summary-output {
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9fb;
+  border-left: 6px solid #4f46e5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  color: #333;
+  text-align: justify;
+  line-height: 1.6;
+  display: none; /* Initially hidden */
+  max-width: 800px;
+  margin: 20px auto 40px auto;
+  font-weight: 500;
+}
+
+.summary-output::before {
+  content: "🔍 Summary:";
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+.api-key-container {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.api-key-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.api-key-container p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.api-key-container input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.api-key-container button {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.api-key-container button:hover {
+  background: #4834d4;
+}
+
+.status-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #27ae60;
+}
